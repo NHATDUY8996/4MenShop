@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./assets/font/fontawesome-free-6.3.0-web/fontawesome-free-6.3.0-web/css/all.css">
+  <link rel="stylesheet" href="./assets/css/login.css">
+</head>
+<body>
+    <div class="container">
+      <div class="forms">
+
+        <!-- form login -->
+        <div class="login form">
+          <span class="title">Đăng Nhập</span>
+          <form action="#">
+            <div class="input-field">
+              <input type="email" placeholder="Địa chỉ Email" required>
+              <i class="fa-solid fa-envelope"></i>
+            </div>
+            <div class="input-field">
+              <input type="password" placeholder="Nhập mật khẩu" required>
+              <i class="fa-solid fa-lock"></i>
+              <i class="fa-solid fa-eye-slash showHidePw"></i>
+            </div>
+            <div class="checkbox-text">
+              <div class="checkbox-content">
+                <input type="checkbox" id="logcheck">
+                <label for="#logcheck">Nhớ mật khẩu</label>
+              </div>
+              <a href="#" class="text">Quên mật khẩu?</a>
+            </div>
+            <div class="input-field button">
+              <input type="button" value="Đăng Nhập" onclick="LocationPage()">
+            </div>
+          </form>
+
+          <div class="login-register">
+            <span class="text">Chưa có tài khoản?
+              <a href="#" class="text register-link">Đăng Ký</a>
+            </span>
+          </div>
+        </div>
+
+        <!-- form register -->
+        <div class="Register form">
+          <span class="title">Đăng Ký</span>
+          <form action="#">
+            <div class="input-field">
+              <input type="text" placeholder="Họ và Tên" required>
+              <i class="fa-solid fa-user"></i>
+            </div>
+            <div class="input-field">
+              <input type="email" placeholder="Địa chỉ Email" required>
+              <i class="fa-solid fa-envelope"></i>
+            </div>
+            <div class="input-field">
+              <input type="password" placeholder="Nhập mật khẩu" required>
+              <i class="fa-solid fa-lock"></i>
+              <i class="fa-solid fa-eye-slash showHidePw"></i>
+            </div>
+            <div class="input-field">
+              <input type="password" placeholder="Nhập lại mật khẩu" required>
+              <i class="fa-solid fa-lock"></i>
+              <i class="fa-solid fa-eye-slash showHidePw"></i>
+            </div>
+            <div class="checkbox-text">
+              <input type="checkbox" id="logcheck">
+              <label for="#logcheck">Tôi đồng ý với các điều khoản</label>
+            </div>
+            <div class="input-field button">
+              <input type="button" value="Đăng Ký" class="Login-link">
+            </div>
+          </form>
+
+          <div class="login-register">
+            <span class="text">Đã có tài khoản?
+              <a href="#" class="text login-link">Đăng Nhập</a>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./assets/js/login.js"></script>
+</body>
+</html>
