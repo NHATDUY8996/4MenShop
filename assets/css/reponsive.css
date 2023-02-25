@@ -1,0 +1,256 @@
+
+
+/* mobile  */
+@media screen and (max-width: 599px) {
+    /* top bar hidden */
+    .top__bar-header{
+        display: none;
+    }
+    /* header bar repon */
+    .header__bar{
+        height: 50px;
+        padding: 10px;
+    }
+    .header__bar--nav{
+        padding: 0;
+    }
+    .header__bar--logo img{
+        height: 30px;
+        width: 50px;
+    }
+    .header__bar--collapse{
+        display: none !important;
+    }
+    .header__bar--menu{
+        display: block;
+    }
+    .header__bar--cart-info{
+        width: 230px;
+        height: 400px;
+    }
+    .search-query{
+        width: 230px;
+    }
+    /* slide banner */
+    .slider:hover .swiper-button-next,
+    .slider:hover .swiper-button-prev,
+    .slider:hover .swiper-pagination{
+        opacity: 0;
+        visibility: hidden;
+    }
+    /* product */
+    .product__new,
+    .product__hot{
+        padding: 0 20px;
+    }
+    .col-2-5{
+        width: 100%;
+    }
+    .clothing__style{
+        display: none;
+    }
+    .product__sale-off{
+        display: none;
+    }
+    .policy{
+        padding: 10px;
+    }
+    .policy__list{
+        padding: 0;
+    }
+    .footer{
+        padding: 10px;
+    }
+    .footer .container{
+        padding: 0;
+    }
+    .footer__list{
+        padding: 0;
+    }
+    .footer__item{
+        margin: 0;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 767px) {
+    /* top bar hidden */
+    .top__bar-header{
+        display: none;
+    }
+    /* header bar */
+    .header__bar{
+        padding: 0 10px;
+        height: 50px;
+    }
+    .header__bar--logo img{
+        height: 40px;
+        width: 60px;
+    }
+    .header__bar--collapse{
+        display: none !important;
+    }
+    .header__bar--menu{
+        display: block;
+    }
+    /* product */
+    .product__new,
+    .product__hot{
+        padding: 0 20px;
+    }
+    
+    .col-2-5{
+        width: 48%;
+    }
+    .product__info{
+        margin: 0 4px;
+    }
+    .clothing__style{
+        display: none;
+    }
+    .policy{
+        padding: 10px;
+    }
+    .policy__list{
+        flex-wrap: wrap;
+        padding: 0;
+    }
+    .footer{
+        padding: 30px 0;
+    }
+    .footer__list{
+        padding: 0;
+        
+    }
+    .product__sale-off .product__info:hover .overlay{
+        display: none;
+    }
+}
+/* tablet */
+@media screen and (min-width: 768px) and (max-width:1023px) {
+    /* top bar */
+    .top__bar{
+        padding: 0 10px;
+    }
+    .top__bar .top__bar--list{
+        font-size: 1.2rem;
+    }
+    /* header bar */
+    .header__bar{
+        height: 70px;
+        padding: 10px;
+    }
+    .header__bar--logo{
+        padding: 0;
+    }
+    .header__bar--collapse{
+        font-size: 1.2rem;
+    }
+    .header__bar--item{
+        padding: 0 8px;
+    }
+    .header__bar--search,
+    .header__bar--cart{
+        height: 26px;
+        width: 26px;
+        line-height: 2.6rem;
+        font-size: 1.1rem;
+    }
+
+    /* product */
+
+    /* product hot */
+    .product__hot{
+        padding: 0 30px;
+    }
+    .col-2-5{
+        width: 32%;
+    }
+    .product__info{
+        margin: 0 4px 10px;
+    }
+    .product__heading{
+        font-size: 1.9rem;
+        line-height: 1.9rem;
+    }
+    .product__price{
+        font-size: 1.3rem;
+    }
+    .product__sale-off .product__info:hover .overlay{
+        display: none;
+    }
+    /* clothing */
+    .clothing__style .container{
+        padding: 0;
+    }
+    .clothing__style .clothing__style-list{
+        padding: 0 10px;
+    }
+    .clothing__style .block-content{
+        height: 270px;
+    }
+    .product__new{
+        padding: 0 20px;
+    }
+    .product__sale-off--list{
+        padding: 0 10px;
+    }
+    .policy{
+        padding: 0 10px;
+    }
+    .policy__list{
+        padding: 0;
+    }
+    .policy .policy__item h4{
+        font-size: 1.3rem;
+        line-height: 1.5rem;
+    }
+    .footer{
+        padding: 30px 0 15px;
+    }
+    .footer__list{
+        padding: 0;
+        flex-wrap: wrap;
+    }
+    .footer .col-2-5{
+        width: 43%;
+    }
+}
+/* pc small */
+@media screen and (min-width: 1024px) and (max-width: 1365px){
+    .top__bar{
+        padding: 0 10px;
+    }
+    .header__bar{
+        padding: 0 10px;
+    }
+    .product__hot{
+        padding: 0 30px;
+    }
+    .clothing__style-list{
+        padding: 0 10px;
+    }
+    .clothing__style .container{
+        padding: 0;
+    }
+    .clothing__style .block-content{
+        height: 260px;
+    }
+    .product__new{
+        padding: 0 30px;
+    }
+    .product__sale-off--list{
+        padding: 0 10px;
+    }
+    .policy{
+        padding: 0 10px;
+    }
+    .policy__list{
+        padding: 0 10px;
+    }
+    .footer{
+        padding: 30px 10px 15px 10px;
+    }
+    .footer__list{
+        padding: 0;
+    }
+}
