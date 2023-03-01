@@ -55,8 +55,10 @@
     .policy{
         padding: 10px;
     }
+    .footer__list,
     .policy__list{
         padding: 0;
+        flex-wrap: wrap;
     }
     .footer{
         padding: 10px;
@@ -64,12 +66,46 @@
     .footer .container{
         padding: 0;
     }
-    .footer__list{
-        padding: 0;
-    }
     .footer__item{
         margin: 0;
     }
+    .product__detail{
+        padding: 0;
+        flex-wrap: wrap;
+    }
+
+    /* product detail item */
+    .col-2{
+        width: 100%;
+    }
+    .product__detail-info{
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    .product__oder--detail h1{
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .prince span:first-child{
+        font-size: 12px;
+    }
+    .prince span:last-child{
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .color span{
+        font-size: 13px;
+    }
+    .product__number .select_number select, .select-size select,
+    .product__detail--addCart, .sale-cart,
+    .product__size .size--title span,
+    .product__number .titleNumber span{
+        font-size: 12px;
+    }
+    
 }
 
 @media screen and (min-width: 600px) and (max-width: 767px) {
@@ -110,6 +146,7 @@
     .policy{
         padding: 10px;
     }
+    .footer__list,
     .policy__list{
         flex-wrap: wrap;
         padding: 0;
@@ -117,12 +154,26 @@
     .footer{
         padding: 30px 0;
     }
-    .footer__list{
-        padding: 0;
-        
-    }
     .product__sale-off .product__info:hover .overlay{
         display: none;
+    }
+    .product__detail{
+        padding: 0;
+        flex-wrap: wrap;
+    }
+    .col-2{
+        width: 100%;
+    }
+    .product__detail-info{
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    .product__oder--detail h1{
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+        font-size: 22px;
+        line-height: 23px;
     }
 }
 /* tablet */
@@ -214,6 +265,9 @@
     .footer .col-2-5{
         width: 43%;
     }
+    .product__detail{
+        padding: 0;
+    }
 }
 /* pc small */
 @media screen and (min-width: 1024px) and (max-width: 1365px){
@@ -225,6 +279,9 @@
     }
     .product__hot{
         padding: 0 30px;
+    }
+    .col-2-5{
+        width: 23%;
     }
     .clothing__style-list{
         padding: 0 10px;
@@ -251,6 +308,12 @@
         padding: 30px 10px 15px 10px;
     }
     .footer__list{
+        padding: 0;
+    }
+    .product__info{
+        padding: 0 8px;
+    }
+    .product__detail{
         padding: 0;
     }
 }
